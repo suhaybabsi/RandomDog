@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		C5C72BD4213708420039E184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C72BD3213708420039E184 /* AppDelegate.swift */; };
-		C5C72BD6213708420039E184 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C72BD5213708420039E184 /* ViewController.swift */; };
+		C5C72BD6213708420039E184 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C72BD5213708420039E184 /* IntroViewController.swift */; };
 		C5C72BD9213708420039E184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C72BD7213708420039E184 /* Main.storyboard */; };
 		C5C72BDB213708420039E184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C72BDA213708420039E184 /* Assets.xcassets */; };
 		C5C72BDE213708420039E184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C72BDC213708420039E184 /* LaunchScreen.storyboard */; };
+		C5C72BE621370A440039E184 /* CustomizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C72BE521370A440039E184 /* CustomizableButton.swift */; };
+		C5C72BE8213711140039E184 /* GenerateDogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C72BE7213711140039E184 /* GenerateDogsViewController.swift */; };
+		C5C72BEA213711280039E184 /* RecentlyGeneratedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C72BE9213711280039E184 /* RecentlyGeneratedViewController.swift */; };
+		C5C72BF1213712800039E184 /* DogPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C72BF0213712800039E184 /* DogPhotoCollectionViewCell.swift */; };
+		C5C72BF3213715250039E184 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C72BF2213715250039E184 /* LRUCache.swift */; };
+		FBB37408EB4CDE3A44DCA783 /* Pods_RandomDog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B51C0CC04DAD7D42E8BCF47 /* Pods_RandomDog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B51C0CC04DAD7D42E8BCF47 /* Pods_RandomDog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomDog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		601FCB7EDAEB23171B78314E /* Pods-RandomDog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomDog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RandomDog/Pods-RandomDog.debug.xcconfig"; sourceTree = "<group>"; };
+		70D45FA9AEEFC187B1C4A14A /* Pods-RandomDog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomDog.release.xcconfig"; path = "Pods/Target Support Files/Pods-RandomDog/Pods-RandomDog.release.xcconfig"; sourceTree = "<group>"; };
 		C5C72BD0213708420039E184 /* RandomDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C72BD3213708420039E184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5C72BD5213708420039E184 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5C72BD5213708420039E184 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		C5C72BD8213708420039E184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5C72BDA213708420039E184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5C72BDD213708420039E184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5C72BDF213708420039E184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5C72BE521370A440039E184 /* CustomizableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableButton.swift; sourceTree = "<group>"; };
+		C5C72BE7213711140039E184 /* GenerateDogsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateDogsViewController.swift; sourceTree = "<group>"; };
+		C5C72BE9213711280039E184 /* RecentlyGeneratedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentlyGeneratedViewController.swift; sourceTree = "<group>"; };
+		C5C72BF0213712800039E184 /* DogPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		C5C72BF2213715250039E184 /* LRUCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB37408EB4CDE3A44DCA783 /* Pods_RandomDog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		419F39EBBD03B3C64165F251 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				601FCB7EDAEB23171B78314E /* Pods-RandomDog.debug.xcconfig */,
+				70D45FA9AEEFC187B1C4A14A /* Pods-RandomDog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		833C7902EAD27C2B590ED862 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B51C0CC04DAD7D42E8BCF47 /* Pods_RandomDog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C5C72BC7213708410039E184 = {
 			isa = PBXGroup;
 			children = (
 				C5C72BD2213708420039E184 /* RandomDog */,
 				C5C72BD1213708420039E184 /* Products */,
+				419F39EBBD03B3C64165F251 /* Pods */,
+				833C7902EAD27C2B590ED862 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,59 @@
 		C5C72BD2213708420039E184 /* RandomDog */ = {
 			isa = PBXGroup;
 			children = (
-				C5C72BD3213708420039E184 /* AppDelegate.swift */,
-				C5C72BD5213708420039E184 /* ViewController.swift */,
-				C5C72BD7213708420039E184 /* Main.storyboard */,
-				C5C72BDA213708420039E184 /* Assets.xcassets */,
-				C5C72BDC213708420039E184 /* LaunchScreen.storyboard */,
-				C5C72BDF213708420039E184 /* Info.plist */,
+				C5C72BEE213711550039E184 /* App */,
+				C5C72BEF2137115D0039E184 /* Components */,
+				C5C72BEB2137112F0039E184 /* View Controllers */,
+				C5C72BED213711440039E184 /* Interface */,
+				C5C72BEC2137113C0039E184 /* Supporting Files */,
 			);
 			path = RandomDog;
+			sourceTree = "<group>";
+		};
+		C5C72BEB2137112F0039E184 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5C72BD5213708420039E184 /* IntroViewController.swift */,
+				C5C72BE7213711140039E184 /* GenerateDogsViewController.swift */,
+				C5C72BE9213711280039E184 /* RecentlyGeneratedViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C5C72BEC2137113C0039E184 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5C72BDA213708420039E184 /* Assets.xcassets */,
+				C5C72BDF213708420039E184 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5C72BED213711440039E184 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				C5C72BD7213708420039E184 /* Main.storyboard */,
+				C5C72BDC213708420039E184 /* LaunchScreen.storyboard */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		C5C72BEE213711550039E184 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C5C72BD3213708420039E184 /* AppDelegate.swift */,
+				C5C72BF2213715250039E184 /* LRUCache.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		C5C72BEF2137115D0039E184 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C5C72BE521370A440039E184 /* CustomizableButton.swift */,
+				C5C72BF0213712800039E184 /* DogPhotoCollectionViewCell.swift */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5C72BE2213708420039E184 /* Build configuration list for PBXNativeTarget "RandomDog" */;
 			buildPhases = (
+				A876CCC53D683DF823F1BA5D /* [CP] Check Pods Manifest.lock */,
 				C5C72BCC213708410039E184 /* Sources */,
 				C5C72BCD213708410039E184 /* Frameworks */,
 				C5C72BCE213708410039E184 /* Resources */,
+				DC6775E64CA8E1716DEA3E89 /* [CP] Embed Pods Frameworks */,
+				FB8A90B06325B575708EA098 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +178,7 @@
 				TargetAttributes = {
 					C5C72BCF213708410039E184 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -131,13 +213,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A876CCC53D683DF823F1BA5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RandomDog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6775E64CA8E1716DEA3E89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RandomDog/Pods-RandomDog-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RandomDog/Pods-RandomDog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB8A90B06325B575708EA098 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RandomDog/Pods-RandomDog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5C72BCC213708410039E184 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5C72BD6213708420039E184 /* ViewController.swift in Sources */,
+				C5C72BF1213712800039E184 /* DogPhotoCollectionViewCell.swift in Sources */,
+				C5C72BE8213711140039E184 /* GenerateDogsViewController.swift in Sources */,
+				C5C72BD6213708420039E184 /* IntroViewController.swift in Sources */,
 				C5C72BD4213708420039E184 /* AppDelegate.swift in Sources */,
+				C5C72BF3213715250039E184 /* LRUCache.swift in Sources */,
+				C5C72BE621370A440039E184 /* CustomizableButton.swift in Sources */,
+				C5C72BEA213711280039E184 /* RecentlyGeneratedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -246,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -256,8 +399,10 @@
 		};
 		C5C72BE3213708420039E184 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601FCB7EDAEB23171B78314E /* Pods-RandomDog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RandomDog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jo.com.suhayb.RandomDog;
@@ -268,8 +413,10 @@
 		};
 		C5C72BE4213708420039E184 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D45FA9AEEFC187B1C4A14A /* Pods-RandomDog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RandomDog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jo.com.suhayb.RandomDog;
@@ -297,6 +444,7 @@
 				C5C72BE4213708420039E184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
