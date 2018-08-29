@@ -72,7 +72,7 @@ extension RecentlyGeneratedViewController:UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         let rf = self.view.frame
-        let w = max(rf.width - 30, 320)
+        let w = min(rf.width - 30, 320)
         
         return CGSize(width: w, height: 260)
     }
